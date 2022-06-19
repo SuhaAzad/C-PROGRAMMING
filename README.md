@@ -1,0 +1,41 @@
+# 1ST
+#include <stdio.h>
+int main()
+{
+	char ch;
+	ch='a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z';
+
+	printf("enter character");
+	scanf("%c",& ch);
+	switch(ch)
+	{
+		case 'j':
+			printf("january or june or july");
+			break;
+		case 'f':
+			printf("february");
+			break;
+		case 'm':
+			printf("march or may");
+			break;
+		case 'a':
+			printf("april or august");
+			break;
+		case 's':
+			printf("september");
+			break;
+		case 'o':
+			printf("october");
+			break;
+		case 'n':
+			printf("november");
+			break;
+		case 'd':
+			printf("december");
+			break;	
+		default:
+			printf("error!!!");  
+	}
+
+    return (0);
+}
