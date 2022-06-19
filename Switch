@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+	int x;
+	printf("enter number");
+	scanf("%d",& x);
+	switch(x)
+	{
+		case(1):
+			printf("january");
+			break;
+		case(2):
+			printf("february");
+			break;
+		case(3):
+			printf("march");
+			break;
+		default:
+			printf("error!!!");  
+	}
+
+    return (0);
+}
